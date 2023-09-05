@@ -1,0 +1,21 @@
+# Begin: Problem 5 -- Do not edit this line. Needed by autograder.
+farthings = int(input())  # Do not change this line!
+
+# Don't write any of your own input statements for this assignment.
+# Add your code here. Assign the final values (your answer) to the variables named 
+
+# (1 pence / 4 farthings) = (12 pence / x farthings), 1 shilling = 48 farthings 
+# (1 shilling / 48 farthings) = (20 shllings / x farthings), 1 pound = 960 farthings
+# "pounds", "shillings", "pence" and "farthings".
+# Feel free to write as many lines of code as you like.
+
+pounds = farthings / 960 
+farthings = farthings % 960 
+shillings = farthings / 48 
+farthings % 48 
+pence = farthings / 4  
+farthings = farthings % 4
+
+print(pounds, 'pounds,', shillings, 'shillings,', pence, 'pence,', farthings, 'farthings')  # Do not change this line!
+# End: Problem 5 -- Do not edit this line. Needed by autograder.
+
